@@ -1,4 +1,4 @@
-import { ComputedProperty } from '@vue-storefront/core';
+import { ComputedProperty } from '@absolute-web/vsf-core';
 
 export interface UseTradeInErrors {
   send: Error | null;

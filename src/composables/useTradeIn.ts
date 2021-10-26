@@ -1,4 +1,4 @@
-import { Context } from '@vue-storefront/core';
+import { Context } from '@absolute-web/vsf-core';
 import { useTradeInFactory, UseTradeInFactoryParams } from '../factories/useTradeInFactory';
 
 const factoryParams: UseTradeInFactoryParams = {
