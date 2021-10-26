@@ -10,7 +10,7 @@
     "dev": "rimraf lib server && yarn run rollup -c -w"
   },
   "dependencies": {
-    "@vue-storefront/core": "~2.4.1",
+    "@absolute-web/vsf-core": "^0.0.1",
     "ohmyfetch": "^0.3.1",
     "vue-demi": "latest"
   },
@@ -29,5 +29,12 @@
     "lib/**/*",
     "nuxt/**/*",
     "server/**/*"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/absolutewebservices/vsf-focus-trade-in.git"
+  }
 }
