@@ -12,7 +12,7 @@ export default async (
       throw response.data;
     }
 
-    return response.data === 1;
+    return response.data === '1';
   } catch (err: any) {
     throw err;
   }

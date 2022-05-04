@@ -25,7 +25,7 @@ const onCreate = (settings: Config): { config: Config; client: ClientInstance } 
           Password: settings.password,
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(body)
+        body
       });
       return { data, status: 200 };
     }
